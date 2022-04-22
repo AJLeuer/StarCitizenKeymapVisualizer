@@ -69,5 +69,15 @@ namespace StarCitizenKeymapVisualizer {
                 return ((byte[])(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Orbitron {
+            get {
+                object obj = ResourceManager.GetObject("Orbitron", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }
