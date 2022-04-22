@@ -1,6 +1,6 @@
 using SFML.Window;
 using static StarCitizenKeymapVisualizer.Configuration;
-namespace StarCitizenKeymapVisualizer.Graphics;
+namespace StarCitizenKeymapVisualizer.SourceCode.Graphics;
 
 public class Window : SFML.Window.Window
 {

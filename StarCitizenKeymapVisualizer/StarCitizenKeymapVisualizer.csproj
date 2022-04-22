@@ -31,7 +31,7 @@
       <Compile Update="Assets.Designer.cs">
         <DesignTime>True</DesignTime>
         <AutoGen>True</AutoGen>
-        <DependentUpon>Resources.resx</DependentUpon>
+        <DependentUpon>Assets.resx</DependentUpon>
       </Compile>
       <Compile Update="Configuration.Designer.cs">
         <DesignTime>True</DesignTime>
