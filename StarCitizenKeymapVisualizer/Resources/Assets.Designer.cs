@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace StarCitizenKeymapVisualizer {
+namespace StarCitizenKeymapVisualizer.Resources {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace StarCitizenKeymapVisualizer {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("StarCitizenKeymapVisualizer.Assets", typeof(Assets).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("StarCitizenKeymapVisualizer.Resources.Assets", typeof(Assets).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

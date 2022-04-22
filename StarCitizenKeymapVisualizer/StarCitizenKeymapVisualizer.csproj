@@ -13,35 +13,35 @@
     </ItemGroup>
 
     <ItemGroup>
-      <EmbeddedResource Update="Assets.resx">
-        <Generator>ResXFileCodeGenerator</Generator>
-        <LastGenOutput>Assets.Designer.cs</LastGenOutput>
-      </EmbeddedResource>
-      <EmbeddedResource Update="Configuration.resx">
+      <EmbeddedResource Update="Resources\Configuration.resx">
         <Generator>ResXFileCodeGenerator</Generator>
         <LastGenOutput>Configuration.Designer.cs</LastGenOutput>
       </EmbeddedResource>
-      <EmbeddedResource Update="Properties.resx">
+      <EmbeddedResource Update="Resources\Properties.resx">
         <Generator>ResXFileCodeGenerator</Generator>
         <LastGenOutput>Properties.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\Assets.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Assets.Designer.cs</LastGenOutput>
       </EmbeddedResource>
     </ItemGroup>
 
     <ItemGroup>
-      <Compile Update="Assets.Designer.cs">
-        <DesignTime>True</DesignTime>
-        <AutoGen>True</AutoGen>
-        <DependentUpon>Assets.resx</DependentUpon>
-      </Compile>
-      <Compile Update="Configuration.Designer.cs">
+      <Compile Update="Resources\Configuration.Designer.cs">
         <DesignTime>True</DesignTime>
         <AutoGen>True</AutoGen>
         <DependentUpon>Configuration.resx</DependentUpon>
       </Compile>
-      <Compile Update="Properties.Designer.cs">
+      <Compile Update="Resources\Properties.Designer.cs">
         <DesignTime>True</DesignTime>
         <AutoGen>True</AutoGen>
         <DependentUpon>Properties.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\Assets.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Assets.resx</DependentUpon>
       </Compile>
     </ItemGroup>
 

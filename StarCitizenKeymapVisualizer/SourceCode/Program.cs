@@ -1,5 +1,5 @@
-﻿using StarCitizenKeymapVisualizer;
-using StarCitizenKeymapVisualizer.SourceCode.Graphics;
+﻿using StarCitizenKeymapVisualizer.SourceCode.Graphics;
+using StarCitizenKeymapVisualizer.Resources;
 
 var window = new Window();
 

@@ -1,5 +1,7 @@
 using SFML.Window;
-using static StarCitizenKeymapVisualizer.Configuration;
+using StarCitizenKeymapVisualizer.Resources;
+using static StarCitizenKeymapVisualizer.Resources.Configuration;
+
 namespace StarCitizenKeymapVisualizer.SourceCode.Graphics;
 
 public class Window : SFML.Window.Window
