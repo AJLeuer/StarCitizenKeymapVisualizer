@@ -89,5 +89,15 @@ namespace StarCitizenKeymapVisualizer.Resources {
                 return ((uint)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 8.
+        /// </summary>
+        internal static double DisplayRefreshIntervalMilliseconds {
+            get {
+                object obj = ResourceManager.GetObject("DisplayRefreshIntervalMilliseconds", resourceCulture);
+                return ((double)(obj));
+            }
+        }
     }
 }
