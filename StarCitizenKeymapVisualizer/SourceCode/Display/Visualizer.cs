@@ -1,6 +1,6 @@
 ﻿using StarCitizenKeymapVisualizer.Resources;
 
-namespace StarCitizenKeymapVisualizer.SourceCode.Graphics;
+namespace StarCitizenKeymapVisualizer.SourceCode.Display;
 
 public static class Visualizer
 {
@@ -10,7 +10,6 @@ public static class Visualizer
     public static void Start()
     {
         State = State.Running;
-        
         while (State == State.Running)
         {
             Window.DispatchEvents();

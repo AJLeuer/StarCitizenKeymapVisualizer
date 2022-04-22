@@ -1,7 +1,5 @@
-﻿using StarCitizenKeymapVisualizer.SourceCode.Graphics;
-using StarCitizenKeymapVisualizer.Resources;
-
-
+﻿using StarCitizenKeymapVisualizer.Resources;
+using StarCitizenKeymapVisualizer.SourceCode.Display;
 
 byte[] keyVectorImageFile = Assets.BlankKeyVectorImage;
 
