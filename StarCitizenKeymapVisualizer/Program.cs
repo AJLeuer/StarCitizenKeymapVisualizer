@@ -1,6 +1,6 @@
-﻿using SFML.Window;
+﻿using StarCitizenKeymapVisualizer.Graphics;
 
-var window = new Window(new VideoMode(1920, 1080, 30), "Star Citizen Keymap Visualizer");
+var window = new Window();
 
 while (true)
 {
